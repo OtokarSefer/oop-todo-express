@@ -1,6 +1,6 @@
 import { Todo } from '../models/todo.js';
 
-class TodoController {
+class todoController {
   constructor() {
     this.TODOS = [];
   }
@@ -78,4 +78,4 @@ class TodoController {
   }
 }
 
-export const TodoController = new TodoController();
+export const TodoController = new todoController();
